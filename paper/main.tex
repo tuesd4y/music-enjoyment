@@ -1,0 +1,55 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx} 
+\usepackage[utf8]{inputenc}
+%\usepackage [naustrian] {babel}
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+	% paper title
+\title{ Are Smartphone IMUs enough for assessing crowd music enjoyment?}
+
+% author names and affiliations
+\author{
+    \IEEEauthorblockN{Tarek Hamid}
+	\IEEEauthorblockA{	k11771398 / 521\\
+	K11771398@students.jku.at}
+		\and
+    \IEEEauthorblockN{Christopher Stelzmüller}
+	\IEEEauthorblockA{	k11814096 / 521\\
+	K11814096@students.jku.at}
+		\and
+    \IEEEauthorblockN{Sebastian Tanzer}
+	\IEEEauthorblockA{	k11826853 / 521\\
+	K11826853@students.jku.at}
+		\and
+    \IEEEauthorblockN{Tobias Priewasser}
+	\IEEEauthorblockA{	K11702409 / 521\\
+	K11702409@students.jku.at}
+		\and
+}
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+We aim to measure crowd engagement with the currently playing music in
+order to create a continuous playlist with the enjoyable music. Playlists will be
+generated using the spotify-API that can generate playlists based on multiple
+seed parameters. The playlist starts with a predefined seed, that is then
+adapted according to the crowd's response to already played song.
+By measuring how the crowd interacts and dances to the music using the
+accelerometer in the crowd's smartphones (by comparing the music BPM to
+BPM of people dancing), multiple seed parameters (e.g. valence (more info on
+what that is), tempo, or others) can be fine-tuned.
+\end{abstract}
+	
+	\IEEEpeerreviewmaketitle
+
+	\bibliographystyle{IEEEtran}
+	\bibliography{References}
+
+
+\end{document}
