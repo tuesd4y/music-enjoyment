@@ -5,7 +5,7 @@ import os
 
 sampling_rate = 20
 window = 15 * sampling_rate
-files = sorted(glob.glob(os.path.join('data', '**/Shape Of you.csv'), recursive=True))
+files = sorted(glob.glob(os.path.join('/Users/dev/code/uni/pervasive-seminar/analysis/data', '**.csv'), recursive=True))
 
 shape_of_you = []
 for file in files:
